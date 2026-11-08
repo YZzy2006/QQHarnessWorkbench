@@ -123,3 +123,5 @@ npm run check:release
 [机器人主仓库](https://github.com/YZzy2006/QQHarnessBot) · [开发者部署](README_DEVELOPER.md) · [AI部署](README_AI.md)
 
 </div>
+
+> **会话视频设置**：档案里开关主动视频，视频页按私聊／群聊分别设置每日上限并查看今日用量。[设置说明](docs/CONFIGURATION.md#逐会话主动视频开关与限额)

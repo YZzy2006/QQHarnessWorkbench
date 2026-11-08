@@ -1,7 +1,7 @@
 {
   "botRepository": "https://github.com/YZzy2006/QQHarnessBot",
   "botBranch": "main",
-  "sourceDigest": "28d367a19f74237c9570c99d5df1f2be34dff7694fab4800cbe104e895a1316e",
+  "sourceDigest": "767692cd743dc50cac15199df2d0f4dccbacfecae309d3a2a7dfbc0eba554597",
   "backendModules": [
     "workbench-auth.js",
     "workbench-contacts.js",
@@ -19,5 +19,5 @@
   "requiresMatchingBotBackend": true,
   "defaultAuthentication": "isolated-local-scrypt",
   "optionalMysqlAndOss": "deployer-owned protected config only",
-  "botCommit": "af247fe6a3f2d6b1848ff8a5bd4c095e867c7fc6"
+  "botCommit": "04d4ffc666a62b3327f77865852875340af43909"
 }
