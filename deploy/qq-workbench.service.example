@@ -1,0 +1,17 @@
+[Unit]
+Description=QQHarnessWorkbench loopback API gateway
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/QQHarnessWorkbench
+Environment=PORT=3188
+ExecStart=/usr/bin/node server.mjs
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

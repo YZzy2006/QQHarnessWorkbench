@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+<title id="t">QQHarnessWorkbench</title><desc id="d">暖纸、木框和绿叶组成的轻量机器人私人手册</desc>
+<rect width="1280" height="360" rx="20" fill="#102e2b"/><path d="M0 300L500 100L980 360H0Z" fill="#17413c"/><rect x="52" y="44" width="1176" height="270" rx="12" fill="#b8945c"/><rect x="62" y="54" width="1156" height="250" fill="#fcf0d8"/>
+<g fill="#56774a"><path d="M1040 80h16v16h16v16h16v16h16v16h-16v-16h-16v-16h-16V96h-16Z"/><path d="M1072 80h32v16h-32zM1104 112h32v16h-32zM1040 112h16v32h-16z"/></g>
+<g stroke="#b8945c" stroke-width="3" fill="none"><path d="M112 224h240M112 244h180M112 264h220"/><rect x="105" y="90" width="48" height="58"/><path d="M129 90v58"/></g>
+<text x="180" y="130" font-family="system-ui,sans-serif" font-size="44" font-weight="700" fill="#274a40">QQHarnessWorkbench</text>
+<text x="112" y="190" font-family="system-ui,sans-serif" font-size="27" fill="#63715d">把她的日常，翻成看得见的一页。</text>
+<text x="660" y="252" font-family="system-ui,sans-serif" font-size="18" fill="#6c705a">DIARY · CHARACTER · VIDEO · MEMORY</text>
+</svg>

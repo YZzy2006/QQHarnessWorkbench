@@ -1,0 +1,23 @@
+{
+  "botRepository": "https://github.com/YZzy2006/QQHarnessBot",
+  "botBranch": "main",
+  "sourceDigest": "28d367a19f74237c9570c99d5df1f2be34dff7694fab4800cbe104e895a1316e",
+  "backendModules": [
+    "workbench-auth.js",
+    "workbench-contacts.js",
+    "workbench-http.js",
+    "workbench-mysql-auth.js",
+    "workbench-operations.js",
+    "workbench-portrait.js",
+    "workbench-records.js",
+    "workbench-server.js",
+    "workbench-settings.js",
+    "workbench-store.js"
+  ],
+  "gatewayUpstream": "http://127.0.0.1:3100",
+  "minimumNode": "22.13.0",
+  "requiresMatchingBotBackend": true,
+  "defaultAuthentication": "isolated-local-scrypt",
+  "optionalMysqlAndOss": "deployer-owned protected config only",
+  "botCommit": "ae32552b61bd893b2438f1c3164e886722f05e8d"
+}

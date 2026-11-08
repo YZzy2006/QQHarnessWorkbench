@@ -1,0 +1,25 @@
+{
+  "name": "qqharness-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "QQHarnessBot 的轻量像素风工作台：日记、人设、视频与结构化管理操作。",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test scripts/test-botwork-server.mjs scripts/test-release-check.mjs scripts/test-public-deployment.mjs",
+    "check:release": "node scripts/release-check.mjs",
+    "check:staged": "node scripts/release-check.mjs --staged",
+    "check:history": "node scripts/release-check.mjs --history",
+    "hooks:install": "git config core.hooksPath .githooks"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YZzy2006/QQHarnessWorkbench.git"
+  },
+  "homepage": "https://github.com/YZzy2006/QQHarnessWorkbench"
+}
