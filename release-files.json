@@ -17,6 +17,7 @@
     "deploy/nginx.conf.example",
     "deploy/qq-workbench.service.example",
     "docs/CONFIGURATION.md",
+    "docs/OPERATIONAL-ERRORS.md",
     "docs/QQ-INCOMING-POLICY.md",
     "docs/RELEASE-2026-11-08.md",
     "docs/WORKBENCH-AUTH.md",

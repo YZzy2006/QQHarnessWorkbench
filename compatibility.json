@@ -19,5 +19,5 @@
   "requiresMatchingBotBackend": true,
   "defaultAuthentication": "isolated-local-scrypt",
   "optionalMysqlAndOss": "deployer-owned protected config only",
-  "botCommit": "d9f56ecda5d156745541a9fd9b9eea20bc6f735a"
+  "botCommit": "4f013b2e30ae57792c3a06be7a35418575031b6b"
 }
