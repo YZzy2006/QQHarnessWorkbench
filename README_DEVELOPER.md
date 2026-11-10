@@ -122,3 +122,7 @@ sudo apt-get install -y ffmpeg fonts-noto-cjk fontconfig python3
 ```
 
 其他发行版使用自己的包管理器。视频功能需ffmpeg/ffprobe；后台安全媒体缓存检查与对应Linux回归使用Python3。中文结果卡片需要完整中文字体，可在本机环境设置`QQ_CARD_FONT`指向已授权TTF/TTC字体；网页自带的OFL像素字集仅用于UI，不等于服务端中文字体。缺字体时业务保留文字结果，不会假装PNG已生成。
+
+### QQ入站显式探测策略
+
+使用匹配的新机器人版本，并同时将部署者自己的SnowLuma `statusCommand.enabled`设为`false`。详见[入站策略与禁止真实QQ探测的验收方法](docs/QQ-INCOMING-POLICY.md)。网页工作台与正常提醒任务保留原业务入口。
